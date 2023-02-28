@@ -1,10 +1,26 @@
-/*CSS general de elementos*/    
+/*CSS general de elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+}   
 body{
     background-color: #222;
-    color:white
+    color:white;
+    font: 200 14px'Poppins', sans-serif;
+}
+h2{
+    font-size: 36px;
 }
 h3{
     color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+p{
+    text-align: justify;
+}
+cite{
+    font-weight: 300;
 }
 /* IDS y Clases*/
 .hastag{
