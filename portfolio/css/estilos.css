@@ -10,6 +10,7 @@ body{
 }
 h2{
     font-size: 36px;
+    line-height: 36px;
 }
 h3{
     color: #999;
@@ -26,7 +27,19 @@ cite{
 .hastag{
     color: #ffc900
 }
+.seccion{
+    padding: 10px 100px 10px 100px;
+}
+#inicio{
+    background-image: url("../Imagenes/inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+}
 #experiencia{
     background-color: white;
     color: #222
+}
+#portfolio{
+    border-top: 1px solid #ffc900;
 }
