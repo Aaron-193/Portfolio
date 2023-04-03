@@ -17,24 +17,79 @@ h3{
     font-size: 18px;
     font-weight: 300;
 }
+nav{
+    position:fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 12px;
+}
+section{
+    padding: 10px 100px 10px 100px;
+}
 p{
     text-align: justify;
 }
+thead{
+    background-color: #222;
+    color: white;
+}
+td{
+    min-width: 150px;
+}
 cite{
     font-weight: 300;
+}
+i{
+    font-size: 24px;
+}
+i:hover{
+    color:#ffc900;
+}
+a:any-link{
+    color: white;
+}
+:-webkit-any-link{
+    color: white;
+}
+:-moz-any-link{
+    color: white;
+}
+li{
+    float: left;
+    margin: 5px;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ffc900;
 }
 /* IDS y Clases*/
 .hastag{
     color: #ffc900
 }
-.seccion{
-    padding: 10px 100px 10px 100px;
+#redessociales{
+    margin-top: 20px;
 }
 #inicio{
     background-image: url("../Imagenes/inicio1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 280px;
+    padding-top: 75px;
 }
 #experiencia{
     background-color: white;
@@ -42,4 +97,7 @@ cite{
 }
 #portfolio{
     border-top: 1px solid #ffc900;
+}
+#logo{
+    padding-top: 0px;
 }
